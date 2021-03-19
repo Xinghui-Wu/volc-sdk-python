@@ -5,12 +5,12 @@ if __name__ == '__main__':
     riskDetector = RiskDetectService()
 
     # call below method if you dont set ak and sk in $HOME/.volc/config
-    riskDetector.set_ak('AKLTMWRiNDFiYWVmZjkyNGI1ZmE3YmIxNTQxOTdjODU1ZTE')
-    riskDetector.set_sk('TUdFeU0ySmtZek0zWWpZek5EYzJNVGxrWlRkbU56TmhaV1JoTjJFeU1EQQ==')
+    riskDetector.set_ak('ak')
+    riskDetector.set_sk('sk')
 
     params = dict()
     req = {
-         'AppId': 3332,
+         'AppId': 1,
          'Service': "chat",
          'Parameters': '{"uid":123411, "operate_time":1609818934, "chat_text":"a"}'
     }
@@ -20,7 +20,7 @@ if __name__ == '__main__':
 
     params = dict()
     req = {
-        'AppId': 3332,
+        'AppId': 1,
         'Service': "chat",
         'Parameters': '{"uid":123411, "operate_time":1609818934, "chat_text":"a"}'
     }

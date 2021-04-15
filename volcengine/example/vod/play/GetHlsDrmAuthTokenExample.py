@@ -7,8 +7,8 @@ if __name__ == '__main__':
 
     vod_service = VodService()
     # call below method if you dont set ak and sk in $HOME/.vcloud/config
-    vod_service.set_ak('AKLTNmYxYTUxYWVlZjIyNDhjMmIwODhkNTkxNjg2ZWUzNGU')
-    vod_service.set_sk('s5F/QnG6iR4TAPZEVSYk4y+ZMwnf/WsySboTF47VNzChf0/BXdcqk8oDvsdwxRjl')
+    vod_service.set_ak('your ak')
+    vod_service.set_sk('your sk')
     try:
         expireSeconds = 60000
         resp = vod_service.get_sha1_hls_drm_auth_token(expireSeconds)

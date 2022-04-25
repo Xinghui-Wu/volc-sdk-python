@@ -186,8 +186,8 @@ def example_describe_play_stream_list(live_service):
 
 if __name__ == '__main__':
     live_service = LiveService()
-    ak = "AKLTZDkyYTQyYmE3NzBmNDE4OWJmYTllYzY0ODhmN2MwZTI"
-    sk = "TkRkak5tUTFOalJpWkRVMU5EWTRZVGd4TmpsaE1tRmhOVEEwTXpKaFlUWQ=="
+    ak = ""
+    sk = "=="
     live_service.set_ak(ak)
     live_service.set_sk(sk)
     # 1.查询直播域名带宽数据
